@@ -4,4 +4,9 @@ var Frame = function() {
 
 Frame.prototype.bowls = function() {
   return this._bowls
+
 }
+
+Frame.prototype.bowl = function(pinsAmount) {
+   this._bowls[0] = pinsAmount;
+ }
